@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/vukhanhhung/Desktop/unityjava/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8f2f614d6bc5a35e1b2bbb1ddbab69105b8786f9">
+        <dex dex="/Users/vukhanhhung/Desktop/unityjava/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e5b5c76ec35f144ac1a4ebe05f90d7adbec5eb42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vukhanhhung/Desktop/unityjava/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/vukhanhhung/Desktop/unityjava/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0445499e75d2158890286eb268d2d0b1c397b7b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vukhanhhung/Desktop/unityjava/app/libs/UnityPlayer.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4cdcec43cf45828036b0a12c88602e60520eac00">
+        <dex dex="/Users/vukhanhhung/Desktop/unityjava/app/build/intermediates/transforms/dex/debug/folders/1000/2/UnityPlayer_77b608633354cde97ba2bed0c2da836da18af193/classes.dex" />
+    </item>
+
+</items>
