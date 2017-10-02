@@ -4,22 +4,20 @@ import android.content.Intent;
 import android.widget.Toast;
 
 public class EaService extends IntentService{
-
     public EaService(){
         super("EaService");
     }
    @Override
     public void onHandleIntent(Intent intent){
        try{
-       Thread.sleep(5000);
+       Thread.sleep(intent.getLongExtra("delay",0) * 1000);
        }
        catch (InterruptedException e){Thread.currentThread().interrupt();}
-       ShowNotification();
+       String title = intent.getStringExtra("title");
+       String msg = intent.getStringExtra("msg");
+       EaIntent.instance.ShowNotification(title,msg);
    }
-     public void ShowNotification(){
-         EaIntent.instance.PushNotification();
-         Toast.makeText(EaIntent.instance.activity,"Notify",Toast.LENGTH_LONG);
-     }
+
 
 
 
